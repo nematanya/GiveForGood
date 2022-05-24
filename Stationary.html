@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<style>
+  nav{ font size: 6;
+
+background-color: slateblue;
+}
+    p{
+       
+       padding-top: 5px;
+      padding-bottom: 50px;
+        font-size: large;
+        height: auto;
+        width:auto;
+        background-color: slateblue;
+        color: white;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .row{
+       font-family:'Segoe UI';
+        color: white;
+       margin-left: 30%;
+       margin-right:30%;
+       padding-top: 5px;
+      padding-bottom: 50px;
+        font-size: large;
+        height: auto;
+        width:auto;
+        border: 20px red ;
+        background-color: slateblue;
+    }
+    .bgimg {
+
+background-image: url("stationary.jpg");
+
+height: 100%; 
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Donation</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a onclick=moneyclicked() href="sass.html">Money</a></li>
+        <li><a href="badges.html">Stationary</a></li>
+        <li><a href="collapsible.html">Clothes</a></li>
+      </ul>
+    </div>
+  </nav>
+    <p class="center">
+        Hello folks! Instead of throwing your unused copies, old books,or any other stationary items you don't need now, donate to our organization.We'll deliever it to needy children. Fill out the form below, write the item you need to donate,we'll collect from your doorstep.
+      <marquee>DONATE HERE !!!</marquee>
+      </p>
+    <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+            
+              <label for="first_name">First Name</label>
+              <input  id="first_name" type="text" class="validate">
+            </div>
+            <div class="input-field col s6">
+        
+              <label for="last_name">Last Name</label>
+              <input id="last_name" type="text" class="validate">
+            </div>
+            <div class="input-field col s6">
+        
+                <label for="address">Address</label> <br>
+                <input id="address" type="text" class="validate">
+              </div>
+              
+
+            <div class="input-field col s6">
+            
+                <label for="Phone ">Phone no.</label>
+                <input id="phone " type="number" class="validate">
+              </div>
+          
+            <div class="input-field col s6">
+              <label for="item">Item</label>
+              <br><br>
+              <input id="Stationary Item you want to donate " type="books" class="validate">
+            </div>
+          </div>
+          
+          </div>
+        </form>
+      </div>
+            
+    
+</body>
+<body class="bgimg"></body>
+</html>
